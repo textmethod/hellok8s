@@ -28,5 +28,5 @@ func main() {
 // as the arguments.
 func handler(w http.ResponseWriter, r *http.Request) {
 	// For this case, we will always pipe "Hello World" into the response writer
-	fmt.Fprintf(w, " you i have successfully deploy your image to the GKE's cluster  ")
+	fmt.Fprintf(w, " you have successfully deploy your image to the GKE's cluster  ")
 }
